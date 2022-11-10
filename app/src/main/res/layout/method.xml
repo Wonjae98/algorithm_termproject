@@ -16,7 +16,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:srcCompat="@drawable/ic_baseline_question_answer_24"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:textAlignment="center"
         />
     <TextView
@@ -34,7 +34,7 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="02. Write the station\n start station / arrival station"
+        android:text="02. Write start station / arrival station"
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="03. Check the fare"
+        android:text="03. Check the fare and compare the fee"
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
