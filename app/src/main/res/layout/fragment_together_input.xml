@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#689047"
+    >
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_baseline_train_24"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Together Mode"
+        android:fontFamily="@font/bold"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/start_station"
+            android:layout_width="127dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint=" Start station"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/arrive_station"
+            android:layout_width="126dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint=" Arrive station"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/start_station2"
+            android:layout_width="127dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint=" Start station"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/arrive_station1"
+            android:layout_width="127dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint=" Arrive station"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculate_btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/howto"
+        android:text="Calculate"
+        android:textColor="#689047"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/under"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Gachon Algorithm Project"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+
+
+
+</LinearLayout>

@@ -11,21 +11,23 @@
     tools:context=".MainActivity"
     >
 
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/ic_baseline_question_answer_24"
         android:layout_margin="20dp"
         android:textAlignment="center"
-        />
+        app:srcCompat="@drawable/ic_baseline_question_answer_24" />
+
     <TextView
         android:id="@+id/method01"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="01. Enter the start button in main page"
         android:gravity="center"
+        android:text="01. Enter the start button in main page"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
@@ -34,8 +36,8 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="02. Write start station / arrival station"
         android:gravity="center"
+        android:text="02. Write start station / arrival station"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
@@ -44,8 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="03. Check the fare and compare the fee"
         android:gravity="center"
+        android:text="03. Check the fare and compare the fee"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 

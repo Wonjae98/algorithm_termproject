@@ -17,13 +17,27 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+        </activity>
+        <activity android:name=".InputActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".HowtoFragment"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".MainMenuActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".SingleInputFragment"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".TogetherInputFragment"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 
