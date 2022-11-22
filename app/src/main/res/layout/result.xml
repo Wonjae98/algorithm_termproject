@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#689047"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/method01"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="여기다가 알고리즘 짠거 확인하는 용도로 출력하면 될거 같아아ㅛ"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/method02"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="02. Write start station / arrival station"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="40sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/method03"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="03. Check the fare and compare the fee"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="40sp" />-->
+
+</LinearLayout>
